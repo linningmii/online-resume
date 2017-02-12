@@ -13,13 +13,13 @@
   <header id="header" class="center-content clear-fix">
     <ul id="topContacts" class="flex-box"></ul>
   </header>
-  <section id="work-experience" class="gray">
+  <section id="work-experience" class="info">
     <h2>Work Experience</h2>
   </section>
-  <section id="projects">
+  <section id="projects" class="info">
     <h2>Projects</h2>
   </section>
-  <section id="education" class="gray">
+  <section id="education" class="info">
     <h2>Education</h2>
   </section>
   <section id="map-div">
@@ -32,29 +32,5 @@
   </section>
 </main>
 <script type="text/javascript" src="./bundle.js"></script>
-<script>
-
-  if (document.getElementsByClassName('flex-item').length === 0) {
-    document.getElementById('topContacts').style.display = 'none';
-  }
-  if (document.getElementsByTagName('h1').length === 0) {
-    document.getElementById('header').style.display = 'none';
-  }
-  if (document.getElementsByClassName('work-entry').length === 0) {
-    document.getElementById('workExperience').style.display = 'none';
-  }
-  if (document.getElementsByClassName('project-entry').length === 0) {
-    document.getElementById('projects').style.display = 'none';
-  }
-  if (document.getElementsByClassName('education-entry').length === 0) {
-    document.getElementById('education').style.display = 'none';
-  }
-  if (document.getElementsByClassName('flex-item').length === 0) {
-    document.getElementById('lets-connect').style.display = 'none';
-  }
-  if (document.getElementById('map') === null) {
-    document.getElementById('mapDiv').style.display = 'none';
-  }
-</script>
 </body>
 </html>
